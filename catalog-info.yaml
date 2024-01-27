@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: Blog App
+  name: Blog_App
   description: This is a dummy Node.js app
   annotations:
     backstage.io/managed-by-location: https://github.com/heraldofsolace/nodejs-server-server/blob/final/catalog-info.yaml
