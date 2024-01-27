@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Blog App
+  description: This is a dummy Node.js app
+  annotations:
+    backstage.io/managed-by-location: https://github.com/heraldofsolace/nodejs-server-server/blob/final/catalog-info.yaml
+  tags:
+    - node
+
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
+  providesApis:
+    - blog-api
+
