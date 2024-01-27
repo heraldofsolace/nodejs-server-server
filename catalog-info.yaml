@@ -7,5 +7,8 @@ metadata:
     backstage.io/managed-by-location: https://github.com/heraldofsolace/nodejs-server-server/blob/final/catalog-info.yaml
   tags:
     - node
-
+spec:
+  type: service
+  lifecycle: experimental
+  owner: user:guest
 
